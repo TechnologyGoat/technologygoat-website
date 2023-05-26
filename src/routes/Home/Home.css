@@ -1,0 +1,45 @@
+.home {
+  min-height: calc(100% - 110px);
+}
+
+.home .apps {
+  padding-top: 40px;
+}
+
+.home .app {
+  width: 100%;
+  max-width: 600px;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #C8EBFF, #96D7FF);
+  text-decoration: none;
+  margin: auto;
+}
+
+.home .app img {
+  width: 150px;
+}
+
+.home .app div {
+  padding-right: 50px;
+}
+
+.home .app h4 {
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.home .app p {
+  font-size: 18px;
+  color: white;
+  margin: 0px;
+}
+  
+@media (min-width: 600px) {
+  .home .app {
+    border-radius: 5px;
+  }
+}

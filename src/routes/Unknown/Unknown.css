@@ -1,0 +1,27 @@
+.unknown {
+  min-height: calc(100% - 110px);
+}
+
+.unknown-block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 40px;
+}
+
+.unknown-block h2 {
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0px;
+}
+
+.unknown-block a {
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .unknown-block h2 {
+    font-size: 35px;
+  }
+}

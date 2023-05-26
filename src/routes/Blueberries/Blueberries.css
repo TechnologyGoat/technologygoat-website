@@ -1,0 +1,55 @@
+.blueberries {
+  min-height: calc(100% - 110px);
+  background: linear-gradient(to top, white, rgb(232, 249, 255));
+}
+
+.blueberries .app {
+  width: 100%;
+  max-width: 600px;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.blueberries .app img {
+  width: 150px;
+}
+
+.blueberries .app div {
+  padding-right: 50px;
+}
+  
+.blueberries .app h4 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.blueberries .app p {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.blueberries .app .price {
+  font-size: 12px;
+}
+
+.blueberries .downloadButton svg {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.blueberries #privacyAndPolicy h5 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.blueberries #privacyAndPolicy p {
+  text-align: center;
+  margin: 5px;
+}
